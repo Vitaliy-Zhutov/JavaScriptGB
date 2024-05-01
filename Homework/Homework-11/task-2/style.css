@@ -1,0 +1,36 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    width: 600px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+}
+.input {
+    font-size: 14px;
+    font-family: "roboto", sans-serif;
+}
+
+.buttons {
+    margin-bottom: 16px;
+    margin-top: 16px;
+    width: 100px;
+    font-size: 14px;
+    font-family: "roboto", sans-serif;
+}
+
+.reviews {
+    padding: 16px 24px;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    background-color: rgb(217, 217, 221);
+    font-family: "roboto", sans-serif;
+}
+
+.error {
+    color: rgb(141, 61, 61);
+}
